@@ -1,0 +1,45 @@
+{
+  "name": "offer-ui",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/offer/ui/src",
+  "prefix": "app",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/offer/ui/ng-package.json",
+        "tailwindConfig": "libs/offer/ui/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/offer/ui/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/offer/ui/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/offer/ui/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/offer/ui/**/*.ts",
+          "libs/offer/ui/**/*.html",
+          "libs/offer/ui/package.json"
+        ]
+      }
+    }
+  }
+}

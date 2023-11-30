@@ -17,7 +17,8 @@
     "paths": {
       "@draylegend/app/domain": ["libs/app/domain/src/index.ts"],
       "@draylegend/offer/domain": ["libs/offer/domain/src/index.ts"],
-      "@draylegend/offer/feature": ["libs/offer/feature/src/index.ts"]
+      "@draylegend/offer/feature": ["libs/offer/feature/src/index.ts"],
+      "@draylegend/offer/ui": ["libs/offer/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
