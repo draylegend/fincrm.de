@@ -1,0 +1,35 @@
+[
+  {
+    "angebotsId": "12345",
+    "anbieter": "Bank A",
+    "zinssatz": 2.5,
+    "effektivZins": 2.7,
+    "laufzeit": 10,
+    "darlehensbetrag": 250000,
+    "monatlicheRate": 1050,
+    "gesamtkosten": 275000,
+    "sonderzahlungOption": true
+  },
+  {
+    "angebotsId": "12346",
+    "anbieter": "Bank B",
+    "zinssatz": 2.2,
+    "effektivZins": 2.4,
+    "laufzeit": 15,
+    "darlehensbetrag": 300000,
+    "monatlicheRate": 950,
+    "gesamtkosten": 320000,
+    "sonderzahlungOption": false
+  },
+  {
+    "angebotsId": "12347",
+    "anbieter": "Bank C",
+    "zinssatz": 1.8,
+    "effektivZins": 2.0,
+    "laufzeit": 20,
+    "darlehensbetrag": 200000,
+    "monatlicheRate": 800,
+    "gesamtkosten": 290000,
+    "sonderzahlungOption": true
+  }
+]
