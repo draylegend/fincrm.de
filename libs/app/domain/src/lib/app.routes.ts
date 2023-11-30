@@ -1,3 +1,4 @@
-import { Route } from '@angular/router';
+import { Routes } from '@angular/router';
+import { offerFeatureRoute } from '@draylegend/feature';
 
-export const appRoutes: Route[] = [];
+export const appRoutes: Routes = [offerFeatureRoute];

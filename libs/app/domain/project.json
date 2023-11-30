@@ -2,7 +2,7 @@
   "name": "domain",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/app/domain/src",
-  "prefix": "draylegend",
+  "prefix": "app",
   "tags": [],
   "projectType": "library",
   "targets": {
