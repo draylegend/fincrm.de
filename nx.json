@@ -48,6 +48,11 @@
     "sharedGlobals": []
   },
   "nxCloudAccessToken": "NzRlNDRhZTktYmU5ZC00MjBmLThmNzMtNzM0YTkxZWZlOTA4fHJlYWQtd3JpdGU=",
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs",
+    "projectNameAndRootFormat": "derived"
+  },
   "generators": {
     "@nx/angular:application": {
       "style": "scss",
