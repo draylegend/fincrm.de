@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { OfferFeatureComponent } from './offer-feature.component';
+import OfferFeatureComponent from './offer-feature.component';
 
 describe('FeatureComponent', () => {
   let component: OfferFeatureComponent;
