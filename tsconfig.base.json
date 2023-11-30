@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@draylegend/app/domain": ["libs/app/domain/src/index.ts"],
+      "@draylegend/offer/domain": ["libs/offer/domain/src/index.ts"],
       "@draylegend/offer/feature": ["libs/offer/feature/src/index.ts"]
     }
   },
