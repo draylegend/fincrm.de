@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { OfferFacade } from '@draylegend/offer/domain';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -8,4 +9,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './offer-feature.component.scss',
   templateUrl: './offer-feature.component.html',
 })
-export default class OfferFeatureComponent {}
+export default class OfferFeatureComponent {
+  facade = inject(OfferFacade);
+}
