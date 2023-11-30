@@ -1,3 +1,11 @@
-@for (offer of facade.offers(); track offer.angebotsId) {
-  <section [data]="offer" ui="offer"></section>
+@if (facade.offers().length) {
+  <section [data]="facade.offers()[0]" color="bg-violet-400" ui="offer">
+    <svg icon="angular"></svg>
+  </section>
+  <section [data]="facade.offers()[1]" color="bg-orange-400" ui="offer">
+    <svg icon="jest"></svg>
+  </section>
+  <section [data]="facade.offers()[2]" color="bg-green-400" ui="offer">
+    <svg icon="playwright"></svg>
+  </section>
 }
