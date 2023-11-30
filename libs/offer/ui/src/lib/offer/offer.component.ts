@@ -3,7 +3,8 @@ import { Offer } from '@draylegend/offer/domain';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  selector: 'app-offer',
+  // eslint-disable-next-line @angular-eslint/component-selector
+  selector: 'section[ui=offer]',
   standalone: true,
   styleUrl: './offer.component.scss',
   templateUrl: './offer.component.html',

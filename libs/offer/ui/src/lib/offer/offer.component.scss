@@ -1,0 +1,11 @@
+:host {
+  @apply rounded-2xl border border-black/50 p-4;
+}
+
+h2 {
+  @apply mb-4 text-2xl;
+}
+
+b + p {
+  @apply mt-4;
+}

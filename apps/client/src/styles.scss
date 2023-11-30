@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+app-root {
+  @apply flex h-full flex-col;
+}
+
+app-root {
+  @apply items-center justify-center;
+}
