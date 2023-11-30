@@ -1,5 +1,5 @@
 {
-  "name": "feature",
+  "name": "offer-feature",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/offer/feature/src",
   "prefix": "app",

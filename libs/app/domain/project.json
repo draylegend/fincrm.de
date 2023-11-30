@@ -1,5 +1,5 @@
 {
-  "name": "domain",
+  "name": "app-domain",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/app/domain/src",
   "prefix": "app",

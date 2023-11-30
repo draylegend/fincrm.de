@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@draylegend/domain": ["libs/app/domain/src/index.ts"],
-      "@draylegend/feature": ["libs/offer/feature/src/index.ts"]
+      "@draylegend/app/domain": ["libs/app/domain/src/index.ts"],
+      "@draylegend/offer/feature": ["libs/offer/feature/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
